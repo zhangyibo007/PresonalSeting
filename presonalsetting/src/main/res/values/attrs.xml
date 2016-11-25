@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundAngelImageView">
+        <attr name="imagetype" format="dimension" />
+
+
+    </declare-styleable>
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <attr name="radius" format="dimension"></attr>
+    <attr name="src" format="reference"></attr>
+    <declare-styleable name="MyImage1">
+        <attr name="type" />
+        <attr name="radius" />
+        <attr name="src" />
+    </declare-styleable>
+    ]
+
+    <declare-styleable name="MyTextViewStyle">
+        <attr name="textsize" format="dimension"></attr>
+        <attr name="textcolor" format="color"></attr>
+        <attr name="text" format="string"></attr>
+
+    </declare-styleable>
+</resources>

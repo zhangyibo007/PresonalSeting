@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_getImg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+
+    android:paddingTop="10dp">
+
+    <Button
+        android:background="#ffffff"
+        android:id="@+id/btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:text="取   消"
+        android:textSize="@dimen/btn_font"
+        android:textStyle="bold" />
+
+    <ImageView
+
+        android:id="@+id/imgv_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/btn_cancel"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc" />
+
+    <Button
+        android:background="#ffffff"
+        android:id="@+id/btn_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imgv_line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:text="拍   照"
+        android:textSize="@dimen/btn_font" />
+    <Button
+        android:background="#ffffff"
+        android:id="@+id/btn_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_photo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:text="相   册"
+        android:textSize="@dimen/btn_font" />
+</LinearLayout>
